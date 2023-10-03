@@ -1,6 +1,3 @@
-To show all the commands that the script is running after selecting an option and change the logo, you need to modify the script as follows:
-
-```batch
 @echo off
 title Catspins PC Optimizer
 
@@ -395,6 +392,3 @@ if "%choice%"=="0" (
 )
 
 goto menu
-```
-
-This script now includes the updated logo and shows all the commands that the script is running after selecting each option. The commands are displayed one after the other, providing feedback on the actions being performed.
