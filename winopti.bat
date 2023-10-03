@@ -1,4 +1,3 @@
-Certainly! Here's the modified code with the "reset" option removed and an added variable to show if a tweak has been run:
 
 @echo off
 
@@ -619,6 +618,3 @@ if "%systemCleanup%"=="true" (
   echo System Cleanup has been performed.
 )
 
-You can use similar conditions for the other tweaks, referencing the respective variables. Replace the "echo" command with your desired output or action for each tweak.
-
-Note: This code assumes that the tweaks will not be run concurrently. If multiple tweaks can be run at the same time, you may need to modify the code to handle concurrent execution.
